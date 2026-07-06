@@ -1,0 +1,37 @@
+========================================
+Failed SSH Login Report
+========================================
+
+Generated:
+30 June 2026 21:41 IST
+
+Input Log:
+ssh_auth.log
+
+----------------------------------------
+Top Failed Login Sources
+----------------------------------------
+
+Attempts    Source
+--------    ----------------
+3           ::1
+
+----------------------------------------
+Summary
+----------------------------------------
+
+Total Failed Login Attempts : 3
+
+Primary Source IP           : ::1
+
+Target Service              : SSH
+
+Destination Port            : 22/TCP
+
+Authentication Status       : Failed
+
+Attempted Username          : fakeuser
+
+----------------------------------------
+End of Report
+----------------------------------------
