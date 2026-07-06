@@ -188,21 +188,26 @@ Repository Structure:
 
 SSH-BruteForce-Detection-and-Investigation/
 │
+
 ├── investigation/
 │ ├── attack_simulation.md
 │ ├── investigation_report.md
 │ └── ioc_summary.md
+
 ├── reports/
 │ ├── sample_report.txt
+
 ├── scripts/
 │ ├── log_analyzer.sh
 │ └── event_collector.ps1
+
 ├── screenshots/
 │ ├── ssh_service_started.png
 │ ├── failed_login_attempts.png
 │ ├── journalctl_logs.png
 │ ├── script_execution.png
 │ └── generated_report.png
+
 └── README.md
 
 Screenshots:
