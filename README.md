@@ -1,4 +1,11 @@
 SSH Brute-Force Detection and Investigation
+![Linux](https://img.shields.io/badge/Linux-Kali-blue)
+![Windows](https://img.shields.io/badge/Windows-Event%20Logs-0078D6)
+![Bash](https://img.shields.io/badge/Bash-Automation-4EAA25)
+![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE)
+![SOC](https://img.shields.io/badge/SOC-Investigation-red)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-T1110-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 Project Overview
 
