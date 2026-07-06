@@ -16,7 +16,7 @@ A hands-on SOC investigation project demonstrating SSH brute-force detection, Li
 
 ---
 
-Project Overview
+Project Overview:
 
 This project demonstrates the investigation of authentication events across both Linux and Windows environments using native operating system logs and custom automation.
 
@@ -89,7 +89,7 @@ A PowerShell script was created to automatically collect the latest events and e
 
 Detection Workflow:
 
-Linux Investigation
+Linux Investigation:
 
 Start SSH service
 Generate failed login attempts
@@ -99,7 +99,7 @@ Extract usernames
 Extract source IP addresses
 Generate investigation report
 
-Windows Investigation
+Windows Investigation:
 
 Query Security Event Logs
 Collect Event IDs 4624 and 4625
@@ -122,7 +122,7 @@ Source:
 
 Authentication failures were successfully recorded inside the SSH journal.
 
-Windows
+Windows:
 
 Recent authentication activity was successfully collected from the Windows Security log.
 
@@ -135,7 +135,7 @@ The PowerShell automation exported all collected events into a timestamped CSV f
 
 IOC Summary:
 
-Linux
+Linux:
 
 | IOC            | Value           |
 | -------------- | --------------- |
@@ -158,13 +158,12 @@ Windows:
 
 Automation:
 
-Linux
+Linux:
 
 Custom Bash automation:
-
 scripts/log_analyzer.sh
 
-Features
+Features:
 
 Accepts SSH log file
 Extracts failed login attempts
@@ -172,61 +171,43 @@ Counts repeated source IPs
 Generates timestamped report
 Displays analyst summary
 
-
-Windows
+Windows:
 
 Custom PowerShell automation:
 
 scripts/event_collector.ps1
 
-Features
+Features:
 
 Collects latest Event IDs 4624 and 4625
 Exports results to CSV
 Generates timestamped output
 Displays summary of successful vs failed logons
 
-Repository Structure
+Repository Structure:
 
 SSH-BruteForce-Detection-and-Investigation/
-
 │
-
 ├── investigation/
-
 │ ├── attack_simulation.md
-
 │ ├── investigation_report.md
-
 │ └── ioc_summary.md
-
 ├── reports/
-
 │ ├── sample_report.txt
-
 ├── scripts/
-
 │ ├── log_analyzer.sh
-
 │ └── event_collector.ps1
-
 ├── screenshots/
-
 │ ├── ssh_service_started.png
-
 │ ├── failed_login_attempts.png
-
 │ ├── journalctl_logs.png
-
 │ ├── script_execution.png
-
 │ └── generated_report.png
-
 └── README.md
 
-Screenshots
+Screenshots:
 
-Linux
+Linux:
 
 SSH service started
 Failed SSH login attempts
@@ -234,15 +215,14 @@ journalctl authentication logs
 Bash automation execution
 Generated SSH investigation report
 
-Windows
+Windows:
 
 Security Event Log (4624)
 Security Event Log (4625)
 PowerShell event collector execution
 Exported CSV report
 
-Skills Demonstrated
-
+Skills Demonstrated:
 
 Linux Authentication Investigation
 Windows Security Event Analysis
@@ -257,8 +237,7 @@ Incident Documentation
 SOC Investigation Workflow
 Security Reporting
 
-Future Improvements
-
+Future Improvements:
 
 Detect brute-force attacks based on configurable thresholds.
 Correlate Linux and Windows authentication events.
